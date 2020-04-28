@@ -27,7 +27,7 @@ class triangle:
             abs((self.z1 - self.x1) ** 2 - (self.z2 - self.x2) ** 2))), 2)
 
 
-def createPoint(n):  # функция для создания списка координат, который введет пользователь
+def createPoint(n):  #создание списка координат
     listNew = []
     for f in range(n):
         print("Введите ", f + 1, "ю координату ")
